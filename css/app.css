@@ -10,24 +10,78 @@ body {
 
 header {
   background: url(../images/bg-header-desktop.png) no-repeat;
-  height: 80vh; }
+  height: 100vh;
+  text-align: center; }
   header img {
-    margin-left: 45%;
     margin-top: 10%; }
   header .hero {
     margin-top: 50px;
     text-align: center; }
-  header .btn {
-    width: 180px;
-    height: 40px;
-    border-radius: 50px;
-    border: none;
-    margin: 20px;
-    color: #fff;
-    cursor: pointer; }
-  header .btn__green {
-    background-color: #26baa4; }
-  header .btn__blue {
-    background-color: #6173ff; }
+
+.btn {
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer; }
+
+.btn__green {
+  background-color: #26baa4; }
+
+.btn__blue {
+  background-color: #6173ff; }
+
+.track {
+  margin-top: 50px;
+  text-align: center; }
+
+.computer {
+  margin-top: 50px;
+  display: flex; }
+  .computer img {
+    width: 80%; }
+  .computer .q-right {
+    padding-left: 0px; }
+
+.access {
+  margin-top: 50px;
+  text-align: center; }
+
+.devices {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; }
+
+.super-top {
+  margin-top: 50px;
+  text-align: center; }
+  .super-top h1 {
+    font-size: 33px; }
+  .super-top p {
+    font-size: 16px; }
+
+.super-bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .super-bottom .blacklist, .super-bottom .texts, .super-bottom .sneak {
+    margin-right: 20px; }
+  .super-bottom h1 {
+    font-size: 20px; }
+  .super-bottom p {
+    font-size: 14px; }
+
+.logos {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.clip {
+  text-align: center; }
 
 /*# sourceMappingURL=app.css.map */
