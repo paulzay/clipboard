@@ -5,83 +5,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Clipboard landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  A history of everything you copy
-
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
-
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+<header>
+  <img src="./images/logo.svg" alt="logo">
+  <div class="hero">
+    <h1>A history of everything you copy</h1>
+    <p>Clipboard allows you to track and organize everything you 
+      copy. Instantly <br> access your clipboard on all your devices.
     </p>
+    <button class="btn btn__green">Download for iOS</button>
+    <button class="btn btn__blue">Download for Mac</button>
+  </div>
+</header>
+<section class="track">
+  <h1>Keep track of your snippets</h1>
+  <p>
+    Clipboard instantly stores any item you copy in the cloud, 
+    meaning you can access<br> your snippets immediately on all your 
+    devices. Our Mac and iOS apps will help you<br> organize everything.</p>
+</section>
+<section class="computer">
+  <div class="q-left">
+    <img src="./images/image-computer.png" alt="computer">
+  </div>
+  <div class="q-right">
+   <h1> Quick Search</h1>
+   <p>Easily search your snippets by content,<br> category, web address, application, and more.
+  </p>
+  <h1>iCloud Sync</h1>
+  <p>Instantly saves and syncs snippets across all <br>your devices.</p>
+  <h1>Complete History</h1>
+  <p>Retrieve any snippets from the first moment<br> you started using the app.</p>
+  </div>
+</section>
+<section class="access">
+  <h1>Access Clipboard anywhere</h1>
+  <p>Whether you’re on the go, or at your computer, you can access all your Clipboard <br> 
+    snippets in a few simple clicks.</p>
+  
+</section>
+<section class="devices">
+  <img src="./images/image-devices.png" alt="devices">
+</section>
+<section class="super">
+  <div class="super-top">
+   <h1>Supercharge your workflow
+    <p>
+      We’ve got the tools to boost your productivity.
+    </p>
+  </div>
+  <div class="super-bottom">
+    <div class="blacklist">
+      <img src="./images/icon-blacklist.svg" alt="">
+      <h1>Create blacklists</h1>
+      <p>Ensure sensitive information never makes its <br>way to your clipboard by excluding certain<br> sources.
+      </p>
+    </div>
+    <div class="texts">
+      <img src="./images/icon-text.svg" alt="text">
+      <h1>Plain text snippets
+      </h1>
+      <p>  
+        Remove unwanted formatting from copied text <br>for a consistent look.</p>
+    </div>
+    <div class="sneak">
+      <img src="./images/icon-preview.svg" alt="preview">
+      <h1>Sneak preview</h1>
+      <p>Quick preview of all snippets on your Clipboard<br> for easy access.</p>
+    </div>
+  </div>
+</section>
+<section class="logos">
+  <img src="./images/logo-google.png" alt="google logo">
+  <img src="./images/logo-ibm.png" alt="ibm logo">
+  <img src="./images/logo-microsoft.png" alt="logo-microsoft">
+  <img src="./images/logo-hp.png" alt="hp logo">
+  <img src="./images/logo-vector-graphics.png" alt="vector graphics">
+</section>
+<section class="clip">
+  <h1>Clipboard for iOS and Mac OS</h1>
+  <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+    and you’re ready to start adding to your clipboard.</p>
+
+  <button class="btn btn__green">Download for iOS</button>
+  <button class="btn btn__blue">Download for Mac</button>
+
+</section>
+  <footer>
+    <div class="foot-left">
+      <div>
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Install Guide</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-right">
+      <img src="./images/icon-facebook.svg" alt="fb">
+      <img src="./images//icon-twitter.svg" alt="twt">
+      <img src="./images/icon-instagram.svg" alt="ig">
+    </div>
   </footer>
 </body>
 </html>

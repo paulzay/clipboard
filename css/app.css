@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #4c545d;
+  background-color: #ffffff; }
+  body p {
+    color: #9fabb2; }
+
+header {
+  background: url(../images/bg-header-desktop.png) no-repeat;
+  height: 100vh;
+  text-align: center; }
+  header img {
+    margin-top: 10%; }
+  header .hero {
+    margin-top: 50px;
+    text-align: center; }
+
+.btn {
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer; }
+
+.btn__green {
+  background-color: #26baa4; }
+
+.btn__blue {
+  background-color: #6173ff; }
+
+.track {
+  margin-top: 50px;
+  height: 40vh;
+  text-align: center; }
+
+.computer {
+  margin-top: 50px;
+  display: flex; }
+  .computer img {
+    width: 80%; }
+  .computer .q-right {
+    padding-left: 0px; }
+
+.access {
+  margin-top: 100px;
+  text-align: center;
+  height: 40vh; }
+
+.devices {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; }
+
+.super-top {
+  margin-top: 50px;
+  text-align: center; }
+  .super-top h1 {
+    font-size: 33px; }
+  .super-top p {
+    font-size: 16px; }
+
+.super-bottom {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .super-bottom .blacklist, .super-bottom .texts, .super-bottom .sneak {
+    margin-right: 20px; }
+  .super-bottom h1 {
+    font-size: 20px; }
+  .super-bottom p {
+    font-size: 14px; }
+
+.logos {
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.clip {
+  margin-top: 100px;
+  text-align: center; }
+
+footer {
+  margin-top: 100px;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px; }
+
+.foot-left {
+  display: flex;
+  justify-content: space-evenly; }
+  .foot-left img {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30px; }
+  .foot-left li {
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style: none; }
+  .foot-left a {
+    text-decoration: none;
+    color: #4c545d; }
+
+.foot-right img {
+  margin-top: 20px;
+  margin-right: 30px; }
+
+/*# sourceMappingURL=app.css.map */

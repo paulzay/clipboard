@@ -1,0 +1,145 @@
+//VARIABLES
+// =======================
+$font-stack: 'Bai Jamjuree', sans-serif;
+$font-size: 18px;
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+$G-B: hsl(210, 10%, 33%);
+$Grayis-Blue: hsl(201, 11%, 66%);
+
+// STYLES
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+  color: $G-B;
+  background-color: #ffffff;
+  p{
+    color: $Grayis-Blue;
+  }
+}
+header{
+  background: url(../images/bg-header-desktop.png) no-repeat;
+  height: 100vh;
+  text-align: center;
+  img{
+    margin-top: 10%;
+  }
+  .hero{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+}
+.btn{
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn__green{
+  background-color: $Strong-Cyan;
+}
+.btn__blue{
+  background-color: $Light-Blue;
+}
+.track{
+  margin-top: 50px;
+  height: 40vh;
+  text-align: center;
+}
+.computer{
+  margin-top: 50px;
+  display: flex;
+  img{
+    width: 80%;
+  }
+  .q-right{
+    padding-left: 0px;
+  }
+}
+.access{
+  margin-top: 100px;
+  text-align: center;
+  height: 40vh;
+}
+.devices{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.super-top{
+  margin-top: 50px;
+  text-align: center;
+  h1{
+    font-size: 33px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
+.super-bottom{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .blacklist, .texts, .sneak{
+    margin-right: 20px;
+  }
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+.logos{
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.clip{
+  margin-top: 100px;
+  text-align: center;
+}
+footer{
+  margin-top: 100px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+.foot-left{
+  display: flex;
+  justify-content: space-evenly;
+  img{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  li{
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: $G-B;
+  }
+
+}
+.foot-right{
+  img{
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+}
+//MIXINS
+//===========================
