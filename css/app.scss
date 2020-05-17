@@ -1,0 +1,21 @@
+//VARIABLES
+// =======================
+$font-stack: 'Bai Jamjuree', sans-serif;
+$font-size: 18px;
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+$G-B: hsl(210, 10%, 33%);
+$Grayis-Blue: hsl(201, 11%, 66%);
+
+// STYLES
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $G-B;
+  background-color: #ffffff;
+}
+
+//MIXINS
+//===========================
