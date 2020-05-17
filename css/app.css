@@ -2,7 +2,32 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
   color: #4c545d;
   background-color: #ffffff; }
+  body p {
+    color: #9fabb2; }
+
+header {
+  background: url(../images/bg-header-desktop.png) no-repeat;
+  height: 80vh; }
+  header img {
+    margin-left: 45%;
+    margin-top: 10%; }
+  header .hero {
+    margin-top: 50px;
+    text-align: center; }
+  header .btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin: 20px;
+    color: #fff;
+    cursor: pointer; }
+  header .btn__green {
+    background-color: #26baa4; }
+  header .btn__blue {
+    background-color: #6173ff; }
 
 /*# sourceMappingURL=app.css.map */
